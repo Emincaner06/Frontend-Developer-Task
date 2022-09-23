@@ -110,6 +110,7 @@ function Main() {
       temp.push(data.id);
       setWrongAnswer([...new Set(temp)]);
     }
+    getRandomObject(allQuestions);
     console.log(textInput.current.value, data,correctAnswer,wrongAnswer);
   };
   let textInput = React.createRef();
