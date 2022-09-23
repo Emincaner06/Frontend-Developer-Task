@@ -1,0 +1,167 @@
+.box {
+    width: 348px;
+    height: 454px;
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 5%;
+    background: #FFFFFF;
+    /* modal shadow */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 40px;
+}
+
+.Image {
+    margin: auto;
+    width: 308px;
+    height: 205px;
+    margin-top: 10%;
+    background: url(https://s3-alpha-sig.figma.com/img/2983/484c/02f1f51da2aaae1b0f190e4b632adfa8?Expires=1664755200&Signature=UHxW-XZn4vEoiXmupXx~d2KCsmiF7yFaBP~eXuQ2LWeBXmrVOzftDGfbyG0tQff6Lp4QlHky-9FMDiYxt8PkCwi-vPdH3m7Y3v0L3nAtaIEKsvzbtgdgnbmDtk8PGBclK1gybe9XQajMr8I94jlsmU-CDvJFbnPjNgoV0xNCjFhp62UfAJGw48Gk1uQy6BxPk6sVRx3l~YA2t7pvnp4snh2p5R4erJhJ~FttcyBNo6DbC6dl4DP7aMtuR6ArDus~lSYCPWalEwG1gFdQUam12W3qKYonFoRVz4tcwN3j5JJd7UCratmYcVWmmnz92YaPVajbAzDNo1coZ9KsCC6MTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: drop-shadow(-6px 6px 10px rgba(255, 103, 0, 0.12));
+    border-radius: 10px;
+}
+
+.txtSrc {
+    margin-top: 28px;
+    width: 208px;
+    height: 36px;
+    background: #FFFFFF;
+    box-shadow: -6px 6px 10px rgba(255, 103, 0, 0.3), 6px -6px 10px rgba(231, 190, 163, 0.3);
+    border-radius: 10px;
+
+}
+
+.btn {
+    margin-top: 28px;
+    width: 208px;
+    height: 40px;
+    left: 86px;
+    top: 517px;
+    color: white;
+    background: #FF6700;
+    border-radius: 10px;
+}
+
+.logo {
+    margin-top: 43px;
+    width: 348px;
+    height: 50px;
+}
+
+.txt {
+    padding-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+@media (min-width: 1280px) {
+    .box {
+        width: 1180px;
+        height: 600px;
+
+        /* modal shadow */
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+    }
+
+    .Image {
+        margin: auto;
+        width: 400px;
+        height: 265.14px;
+
+        background: url(https://s3-alpha-sig.figma.com/img/2983/484c/02f1f51da2aaae1b0f190e4b632adfa8?Expires=1664755200&Signature=UHxW-XZn4vEoiXmupXx~d2KCsmiF7yFaBP~eXuQ2LWeBXmrVOzftDGfbyG0tQff6Lp4QlHky-9FMDiYxt8PkCwi-vPdH3m7Y3v0L3nAtaIEKsvzbtgdgnbmDtk8PGBclK1gybe9XQajMr8I94jlsmU-CDvJFbnPjNgoV0xNCjFhp62UfAJGw48Gk1uQy6BxPk6sVRx3l~YA2t7pvnp4snh2p5R4erJhJ~FttcyBNo6DbC6dl4DP7aMtuR6ArDus~lSYCPWalEwG1gFdQUam12W3qKYonFoRVz4tcwN3j5JJd7UCratmYcVWmmnz92YaPVajbAzDNo1coZ9KsCC6MTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .txtSrc {
+        margin-top: 25px;
+        width: 500px;
+        height: 40px;
+
+    }
+
+    .btn {
+        margin-top: 70px;
+        width: 250px;
+        height: 50px;
+        left: 86px;
+        top: 517px;
+    }
+
+    .logo {
+        margin-top: 43px;
+        width: 348px;
+        height: 50px;
+    }
+
+    .txt {
+        padding-top: 20px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media (min-width: 1980px) {
+    .box {
+        width: 1280px;
+        height: 827px;
+
+        /* modal shadow */
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+    }
+
+    .Image {
+        width: 700px;
+        height: 464px;
+        background: url(https://s3-alpha-sig.figma.com/img/2983/484c/02f1f51da2aaae1b0f190e4b632adfa8?Expires=1664755200&Signature=UHxW-XZn4vEoiXmupXx~d2KCsmiF7yFaBP~eXuQ2LWeBXmrVOzftDGfbyG0tQff6Lp4QlHky-9FMDiYxt8PkCwi-vPdH3m7Y3v0L3nAtaIEKsvzbtgdgnbmDtk8PGBclK1gybe9XQajMr8I94jlsmU-CDvJFbnPjNgoV0xNCjFhp62UfAJGw48Gk1uQy6BxPk6sVRx3l~YA2t7pvnp4snh2p5R4erJhJ~FttcyBNo6DbC6dl4DP7aMtuR6ArDus~lSYCPWalEwG1gFdQUam12W3qKYonFoRVz4tcwN3j5JJd7UCratmYcVWmmnz92YaPVajbAzDNo1coZ9KsCC6MTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .txtSrc {
+        margin-top: 35px;
+        width: 700px;
+        height: 50px;
+
+    }
+
+    .btn {
+        margin-top: 70px;
+        width: 324px;
+        height: 60px;
+        left: 86px;
+        top: 517px;
+    }
+
+    .logo {
+        margin-top: 43px;
+        width: 500px;
+        height: 72px;
+    }
+
+    .txt {
+        padding-top: 30px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 19px;
+    }
+}
